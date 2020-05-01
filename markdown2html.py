@@ -13,4 +13,4 @@ if __name__ == "__main__":
         sys.stderr.write("Missing " + sys.argv[1])
         sys.exit(1)
     else:
-        exit(0)
+        sys.exit(0)
