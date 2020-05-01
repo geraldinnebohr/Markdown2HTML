@@ -5,6 +5,7 @@ import os.path
 
 
 if __name__ == "__main__":
+    """not execute the code when imported"""
     lenght = len(sys.argv)
     if lenght < 3:
         sys.stderr.write("Usage: ./markdown2html.py README.md README.html")
